@@ -40,21 +40,21 @@ Unfortunately I can only get the creation date for a video from the API, not the
 You can run this project as a standalone server using Node.js.
 
 ---
-```
 1. Clone the repo:
-
+```
 git clone https://github.com/remram44/twitch-vod-sync.git
+```
 
 2. Build the app:
-
+```
 npm run build
-
+```
 3. Start the server:
-
+```
 npm run serve
-
+```
 4. Open:
-
+```
 http://localhost:3000
 ```
 ---
