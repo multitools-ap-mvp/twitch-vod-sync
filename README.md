@@ -43,7 +43,7 @@ You can run this project as a standalone server using Node.js.
 ```
 1. Clone the repo:
 
-git clone https://github.com/multitools-ap-mvp/twitch-vod-sync/tree/master
+git clone https://github.com/remram44/twitch-vod-sync.git
 
 2. Build the app:
 
