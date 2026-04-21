@@ -29,11 +29,48 @@ FAQ
 
 Unfortunately I can only get the creation date for a video from the API, not the embed system, and the API needs authorization. Note that I am requesting no permissions on your account, I just query the video API on your behalf. This is also a static web app so I am not collecting the access token (it stays in your browser).
 
----
 
 # Selfhost
 
 ---
 
 
+🖥️ Self-hosting with Node/Express (optional)
+
+You can run this project as a standalone server using Node.js.
+
+---
+
+1. Build the app:
+
+npm run build
+
+2. Start the server:
+
+npm run serve
+
+3. Open:
+
+http://localhost:3000
+
+---
+
+Why this is needed
+
+The app uses "%PUBLIC_URL%", which is only processed during build.
+
+Serving the "public/" folder directly will cause errors like:
+
+```
+URIError: Failed to decode param '%PUBLIC_URL%/...'
+```
+
+## Setup 
+
+```
+git clone https://github.com/multitools-ap-mvp/twitch-vod-sync/tree/master
+npm install
+npm run build
+npm run serve
+```
 
