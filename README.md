@@ -44,6 +44,10 @@ You can run this project as a standalone server using Node.js.
 ```
 git clone https://github.com/remram44/twitch-vod-sync.git
 ```
+Install dependencies
+```
+npm install
+```
 
 2. Build the app:
 ```
