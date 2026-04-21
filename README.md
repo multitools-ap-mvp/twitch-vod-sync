@@ -40,37 +40,21 @@ Unfortunately I can only get the creation date for a video from the API, not the
 You can run this project as a standalone server using Node.js.
 
 ---
+```
+1. Clone the repo:
 
-1. Build the app:
+git clone https://github.com/multitools-ap-mvp/twitch-vod-sync/tree/master
+
+2. Build the app:
 
 npm run build
 
-2. Start the server:
+3. Start the server:
 
 npm run serve
 
-3. Open:
+4. Open:
 
 http://localhost:3000
-
+```
 ---
-
-Why this is needed
-
-The app uses "%PUBLIC_URL%", which is only processed during build.
-
-Serving the "public/" folder directly will cause errors like:
-
-```
-URIError: Failed to decode param '%PUBLIC_URL%/...'
-```
-
-## Setup 
-
-```
-git clone https://github.com/multitools-ap-mvp/twitch-vod-sync/tree/master
-npm install
-npm run build
-npm run serve
-```
-
